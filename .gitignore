@@ -2,6 +2,8 @@
 00-documentacion/_cuerpo.docx
 ~$*.docx
 ~$*.doc
+~WRL*.tmp
+~*.tmp
 
 # Archivos del sistema
 Thumbs.db
