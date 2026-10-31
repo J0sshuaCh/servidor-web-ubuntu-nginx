@@ -1,0 +1,110 @@
+﻿**********************
+Inicio de la transcripción de Windows PowerShell
+Hora de inicio: 20261031115140
+Nombre de usuario: DESKTOP-2Q02MTB\I5
+Usuario RunAs: DESKTOP-2Q02MTB\I5
+Nombre de la configuración: 
+Máquina: DESKTOP-2Q02MTB (Microsoft Windows NT 10.0.26300.0)
+Aplicación host: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -File C:\Users\I5\Documents\Proyectos Web\TareaTaller\scripts\f1-crear-vm.ps1
+Id. de proceso: 4288
+PSVersion: 5.1.26100.9711
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9711
+BuildVersion: 10.0.26100.9711
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+== Verificaciones previas ==
+== Conmutador interno srv-lab ==
+Creado conmutador interno 'srv-lab'
+Asignada IP 192.168.150.1/24 al host en vEthernet (srv-lab)
+Creado NAT 'srv-lab-nat' para 192.168.150.0/24
+== Creando VM srv-universidad ==
+== Hardware de la VM ==
+== Estado final ==
+-- VM --
+
+
+Name           : srv-universidad
+State          : Off
+Generation     : 2
+ProcessorCount : 2
+MemoryAssigned : 0
+Path           : C:\Hyper-V\srv-universidad\Virtual Machines\srv-universidad
+
+
+
+-- Disco --
+
+
+Path             : C:\Hyper-V\srv-universidad\Virtual Hard Disks\srv-universidad.vhdx
+ControllerType   : SCSI
+ControllerNumber : 0
+
+
+
+-- DVD --
+
+
+Path : C:\Users\I5\Downloads\ubuntu-24.04.5-live-server-amd64.iso
+
+
+
+-- Red de la VM --
+
+
+Name       : Adaptador de red
+SwitchName : srv-lab
+MacAddress : 000000000000
+Status     :
+
+
+
+-- Orden de arranque --
+
+BootType Device
+-------- ------
+ Network VMNetworkAdapter (Name = 'Adaptador de red', VMName = 'srv-universidad') [VMId = '345dd8d3-6c17-493f-b8d9-9...
+   Drive HardDiskDrive (Name = 'Unidad de disco duro on SCSI controller number 0 at location 0', VMName = 'srv-unive...
+   Drive DvdDrive (Name = 'Unidad de DVD on SCSI controller number 0 at location 1', VMName = 'srv-universidad') [Id...
+
+
+-- Conmutadores --
+
+Name                   SwitchType
+----                   ----------
+SwitchPuenteVoIP         External
+Default Switch           Internal
+WSL (Hyper-V firewall)   Internal
+srv-lab                  Internal
+
+
+-- NAT --
+
+Name        InternalIPInterfaceAddressPrefix
+----        --------------------------------
+srv-lab-nat 192.168.150.0/24
+
+
+-- IP del host en el conmutador de laboratorio --
+
+IPAddress                    PrefixLength
+---------                    ------------
+fe80::33fe:e2d0:21f8:feef%75           64
+192.168.150.1                          24
+
+
+-- Tamanio del VHDX --
+
+Name                 MB
+----                 --
+srv-universidad.vhdx  4
+
+
+== FIN ==
+**********************
+Fin de la transcripción de Windows PowerShell
+Hora de finalización: 20261031115147
+**********************

@@ -1,0 +1,63 @@
+﻿**********************
+Inicio de la transcripción de Windows PowerShell
+Hora de inicio: 20261031115441
+Nombre de usuario: DESKTOP-2Q02MTB\I5
+Usuario RunAs: DESKTOP-2Q02MTB\I5
+Nombre de la configuración: 
+Máquina: DESKTOP-2Q02MTB (Microsoft Windows NT 10.0.26300.0)
+Aplicación host: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -File C:\Users\I5\Documents\Proyectos Web\TareaTaller\scripts\f1-arrancar-vm.ps1
+Id. de proceso: 22624
+PSVersion: 5.1.26100.9711
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9711
+BuildVersion: 10.0.26100.9711
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Estado inicial: Off
+== Ajustes previos al primer arranque ==
+Orden de arranque configurado: DVD -> Disco duro -> Red
+== Arrancando la VM ==
+== Verificacion ==
+
+
+Name           : srv-universidad
+State          : Running
+Generation     : 2
+ProcessorCount : 2
+MemoryAssigned : 4294967296
+Uptime         : 00:00:05.0260000
+
+
+
+-- Secure Boot --
+Off
+-- Orden de arranque efectivo --
+Drive : Unidad de DVD on SCSI controller number 0 at location 1
+Drive : Unidad de disco duro on SCSI controller number 0 at location 0
+Network : Adaptador de red
+-- MAC de la VM --
+
+
+Name                     : Adaptador de red
+SwitchName               : srv-lab
+MacAddress               : 00155D00E804
+DynamicMacAddressEnabled : True
+
+
+
+-- Salida a Internet desde el host hacia la subred del laboratorio --
+
+Name        InternalIPInterfaceAddressPrefix
+----        --------------------------------
+srv-lab-nat 192.168.150.0/24
+
+
+Abriendo consola (vmconnect)...
+== FIN ==
+**********************
+Fin de la transcripción de Windows PowerShell
+Hora de finalización: 20261031115449
+**********************

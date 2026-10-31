@@ -1,0 +1,84 @@
+﻿**********************
+Inicio de la transcripción de Windows PowerShell
+Hora de inicio: 20261031121226
+Nombre de usuario: DESKTOP-2Q02MTB\I5
+Usuario RunAs: DESKTOP-2Q02MTB\I5
+Nombre de la configuración: 
+Máquina: DESKTOP-2Q02MTB (Microsoft Windows NT 10.0.26300.0)
+Aplicación host: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -File C:\Users\I5\Documents\Proyectos Web\TareaTaller\scripts\f1-reinstalar-vm.ps1
+Id. de proceso: 10304
+PSVersion: 5.1.26100.9711
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9711
+BuildVersion: 10.0.26100.9711
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Estado actual: Running
+ISO montada:
+Orden de arranque: DVD -> Disco -> Red
+Apagando la VM (equivale a mantener pulsado el boton de encendido)...
+Arrancando de nuevo desde la ISO del instalador...
+
+
+Name           : srv-universidad
+State          : Running
+Uptime         : 00:00:05.0270000
+MemoryAssigned : 4294967296
+
+
+
+Abriendo consola...
+== FIN ==
+**********************
+Fin de la transcripción de Windows PowerShell
+Hora de finalización: 20261031121236
+**********************
+**********************
+Inicio de la transcripción de Windows PowerShell
+Hora de inicio: 20261031121258
+Nombre de usuario: DESKTOP-2Q02MTB\I5
+Usuario RunAs: DESKTOP-2Q02MTB\I5
+Nombre de la configuración: 
+Máquina: DESKTOP-2Q02MTB (Microsoft Windows NT 10.0.26300.0)
+Aplicación host: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -File C:\Users\I5\Documents\Proyectos Web\TareaTaller\scripts\f1-reinsertar-iso.ps1
+Id. de proceso: 14608
+PSVersion: 5.1.26100.9711
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9711
+BuildVersion: 10.0.26100.9711
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+== Reinsertando la ISO ==
+ISO montada ahora: C:\Users\I5\Downloads\ubuntu-24.04.5-live-server-amd64.iso
+== Reinicio forzado ==
+== Verificacion ==
+
+
+Name   : srv-universidad
+State  : Running
+Uptime : 00:00:05.0290000
+
+
+
+-- Orden de arranque --
+Drive : Unidad de DVD on SCSI controller number 0 at location 1
+Drive : Unidad de disco duro on SCSI controller number 0 at location 0
+Network : Adaptador de red
+-- DVD --
+
+
+Path : C:\Users\I5\Downloads\ubuntu-24.04.5-live-server-amd64.iso
+
+
+
+== FIN ==
+**********************
+Fin de la transcripción de Windows PowerShell
+Hora de finalización: 20261031121309
+**********************

@@ -1,0 +1,55 @@
+=== PREFLIGHT HYPER-V - 2026-10-31 11:47:31 ===
+
+--- Contexto ---
+Usuario: I5 | Elevado: True | Host: DESKTOP-2Q02MTB
+
+--- Conmutadores virtuales ---
+
+Name                   SwitchType NetAdapterInterfaceDescription                
+----                   ---------- ------------------------------                
+SwitchPuenteVoIP         External Realtek 8822CE Wireless LAN 802.11ac PCI-E NIC
+Default Switch           Internal                                               
+WSL (Hyper-V firewall)   Internal
+
+--- Maquinas virtuales existentes ---
+
+
+--- Objetos NAT existentes ---
+
+
+--- Direcciones IPv4 del host ---
+
+InterfaceAlias                     IPAddress       PrefixLength PrefixOrigin
+--------------                     ---------       ------------ ------------
+Conexión de área local* 1          169.254.190.207           16    WellKnown
+Conexión de área local* 10         169.254.251.253           16    WellKnown
+Ethernet                           192.168.100.2             24         Dhcp
+Loopback Pseudo-Interface 1        127.0.0.1                  8    WellKnown
+vEthernet (Default Switch)         172.24.192.1              20       Manual
+vEthernet (SwitchPuenteVoIP)       169.254.209.108           16    WellKnown
+vEthernet (WSL (Hyper-V firewall)) 172.31.32.1               20       Manual
+
+--- Adaptadores de red fisicos ---
+
+Name                               InterfaceDescription                           Status       LinkSpeed 
+----                               --------------------                           ------       --------- 
+vEthernet (SwitchPuenteVoIP)       Hyper-V Virtual Ethernet Adapter #3            Disconnected 0 bps     
+Ethernet                           Realtek PCIe 2.5GbE Family Controller          Up           1 Gbps    
+Puente de red                      Microsoft Network Adapter Multiplexor Driver   Disconnected 0 bps     
+vEthernet (WSL (Hyper-V firewall)) Hyper-V Virtual Ethernet Adapter #2            Up           10 Gbps   
+vEthernet (Default Switch)         Hyper-V Virtual Ethernet Adapter               Up           10 Gbps   
+Wi-Fi                              Realtek 8822CE Wireless LAN 802.11ac PCI-E NIC Disconnected 144.4 Mbps
+
+--- Ubicacion por defecto de discos Hyper-V ---
+
+VirtualMachinePath                       VirtualHardDiskPath                                
+------------------                       -------------------                                
+C:\ProgramData\Microsoft\Windows\Hyper-V C:\ProgramData\Microsoft\Windows\Virtual Hard Disks
+
+--- Espacio en disco ---
+
+        Used         Free
+        ----         ----
+656870334464 366162612224
+
+=== FIN PREFLIGHT ===
